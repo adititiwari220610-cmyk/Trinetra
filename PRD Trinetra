@@ -1,0 +1,37 @@
+Trinetra - Fake Internship & Job Scam Detector
+ Product Requirements Document (PRD)
+
+ Problem and Purpose
+Students in Tier-2 cities like Kanpur, Lucknow, and Prayagraj, along with housewives, receive fake internship and job offers through WhatsApp, Telegram, Instagram, SMS, email, and YouTube links. These offers may ask for registration fees or sensitive information such as Aadhaar and PAN.
+
+Trinetra is a simple, free website where users paste a job message and receive a Scam Score with an explanation before they pay or share information.
+
+ Target Users
+- College students, especially BCA, BBA, B.Tech, and MCA students in Kanpur and Uttar Pradesh looking for internships or part-time jobs.
+- Teachers and placement cells checking a company before forwarding its message to students.
+- Housewives receiving job offers through online messages or links.
+
+Core User Experience
+1. The user pastes a job or internship message into the checker.
+2. Within 1 second, Trinetra returns a Scam Score from 0 to 100.
+3. The result includes a risk level and a simple explanation in Hindi and English.
+
+ Score  Result 
+70–100 RED — HIGH RISK, IT IS A SCAM! Do not send money.*
+ 30–69 *ORANGE  SUSPICIOUS, check carefully.*
+0–29 *GREEN — LOOKS SAFE.*
+
+Explanations may include: “Real companies never ask for money for a job” and “You cannot get this much salary for 2 hours work.”
+
+Round 2 Scope
+- Main Checker
+- Two example buttons for one-click testing
+- Last 5 history
+- Report Scam option
+- Hindi Mode
+- Company Check
+
+Intended Impact
+If 1,000 students use Trinetra and 100 avoid paying Rs. 500, the tool could help save Rs. 50,000 and protect Aadhaar and bank data from theft.
+
+The team’s motivation comes from a friend losing money in a Telegram task scam and another receiving a fake HR call asking for Aadhaar. Searching Google or using the Cyber Crime portal can be slow and complicated when a student needs an answer before paying.
