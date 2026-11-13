@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>TRINETRA</title></head>
+<body style="text-align:center; font-family:Arial; background:#fff3e0; padding-top:40px;">
+
+<h1>👁️ TRINETRA</h1>
+<p>Paste your message here to know if it is a scam or not.</p>
+
+<form action="/check" method="POST">
+  <input name="msg" type="text" placeholder="Yahan message likho..." style="padding:12px; width:300px; border-radius:10px;" required>
+  <br><br>
+  <button type="submit" style="padding:12px 20px; background:#ff6d00; color:white; border:none; border-radius:10px;">Check Karo</button>
+</form>
+
+<h2 style="color: {{ color }}">{{ result }}</h2>
+
+</body>
+</html>
